@@ -1,4 +1,68 @@
-img {
-  width: 150px;
-  height: 150px;
+body {
+  background-color: #8d99ae;
+}
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto Slab', serif;
+  color: #edf2f4
+}
+.card {
+  background-color: #2b2d42;
+  width: 250px;
+  height: 700px;
+  border-radius: 10px;
+  margin: 3%;
+}
+.info-container {
+  height: 350px;
+}
+.personal-details {
+  margin: -4px 0 0 0 ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.personal-details h3 {
+  margin: 12px 0 0 0;
+}
+.personal-details h6 {
+  margin: 0 0 6px 0;
+  font-size: 8px;
+  color: #fed9b7;
+}
+.personal-details p {
+  margin: 0 0 10px 0;
+}
+.profile {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px 10px 0 0;
+}
+.info-container p {
+  font-size: 7px;
+}
+.button p {
+  font-size: 12px;
+}
+.icon-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.button {
+  width: 40px;
+  height: 15px;
+  padding: 0 5px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: black;
+}
+.button p {
+  font-size: 7px;
+  margin: 0 0 0 3px;
 }

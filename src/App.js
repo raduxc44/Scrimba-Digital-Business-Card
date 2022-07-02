@@ -7,11 +7,13 @@ import Footer from './Footer';
 
 function App() {
   return (
-    <div className="App">
-      <Info />
-      <About />
-      <Interests />
-      <Footer />
+    <div className="app">
+      <div className='card'>
+        <Info />
+        <About />
+        <Interests />
+        <Footer />
+      </div>
     </div>
   );
 }
