@@ -48,13 +48,14 @@ body {
 }
 .icon-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  gap: 15px;
 }
 .button {
-  width: 40px;
-  height: 15px;
-  padding: 0 5px;
+  width: 65px;
+  height: 20px;
+  padding: 3px 12px;
   border-radius: 3px;
   display: flex;
   align-items: center;
@@ -65,4 +66,18 @@ body {
 .button p {
   font-size: 7px;
   margin: 0 0 0 3px;
+}
+
+.text-container{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.text-container p, .text-container h5 {
+  margin: 0 10% 0 10%;
+}
+.text-container p{
+  margin-top: 5px;
+  font-size: 8px;
+  max-width: 75%;
 }
